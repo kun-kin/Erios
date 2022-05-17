@@ -1125,7 +1125,7 @@ section.blog .inner:hover .content .entry-item .entry-content .entry-link {
 }
 
 .mm-navbar,
-.mm-panel {
+.mm-panel--opened {
   background-color: #333239;
 }
 

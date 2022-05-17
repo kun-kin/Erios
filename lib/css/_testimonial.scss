@@ -1,0 +1,60 @@
+section.testimonial-page {
+    .testi-item {
+        margin-bottom: 30px;
+        .inner {
+            background-color: #fff;
+            padding: 40px 35px;
+            display: flex;
+            flex-direction: column;
+            // justify-content: space-between;
+            height: 100%;
+            transition: all .3s ease;
+            text-align: center;
+            margin-bottom: 30px;
+            h2.testi-title {
+                color: #000;
+                font-family: DM Sans;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 28.8px;
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 1.5rem;
+            }
+            .testi-content {
+                color: #888;
+                font-size: 16px;
+                line-height: 30px;
+                margin-bottom: 20px;
+                font-style: italic;
+            }
+            .meta {
+                .rating-star {
+                    font-size: 10px;
+                    margin-bottom: 15px;
+                    i {
+                        color: var(--orange-color);
+                    }
+                }
+                .image {
+                    display: flex;
+                    justify-content: center;
+                    img {
+                        border-radius: 50%;
+                        margin-bottom: 20px;
+                        height: 50px;
+                        width: 50px;
+                    }
+                }
+                .details {
+                    .name {
+                        color: #000;
+                        font-size: 16px;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}
